@@ -7039,9 +7039,8 @@ function translate(sent, value, index) {
     var text = '';
     var back;
 
-    //Your GOOGLE-TRANSLATE-API-KEY:
-	
-    var API_KEY = "AIzaSyDGNl44X0HmIlh0TjzZlXpWX07AnBiJ3hI";
+    //YOUR GOOGLE-TRANSLATE-API-KEY:
+    var API_KEY = "";
 
     //xhr.open("GET", "https://cors-anywhere.herokuapp.com/https://translation.googleapis.com/language/translate/v2?target=en&key="+API_KEY+"&q="+sent, true);
     xhr.open("GET", "https://translation.googleapis.com/language/translate/v2?target=en&key="+API_KEY+"&q=" + sent, true);
@@ -7056,7 +7055,7 @@ function translate(sent, value, index) {
     xhr.send();
     function zudeutsch(text, value, index) {
         var xhr2 = new XMLHttpRequest();
-        //xhr2.open("GET", "https://cors-anywhere.herokuapp.com/https://translation.googleapis.com/language/translate/v2?target=de&key=AIzaSyDGNl44X0HmIlh0TjzZlXpWX07AnBiJ3hI&q="+text, true)
+        //xhr2.open("GET", "https://cors-anywhere.herokuapp.com/https://translation.googleapis.com/language/translate/v2?target=de&key="+API_KEY+"&q="+text, true)
         xhr2.open("GET", "https://translation.googleapis.com/language/translate/v2?target=de&key="+API_KEY+"&q=" + text, true);
         xhr2.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
         xhr2.onreadystatechange = function () {
