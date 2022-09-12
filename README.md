@@ -30,5 +30,4 @@ werden gut erkannt. Schwierig sind z.B. Sätze in denen Aufzählungen vorkommen.
 Aber mit mehr Daten würde auch das besser werden. Es ist halt die erste Version.
 
 Content is licensed under the [Google BSD License](https://developers.google.com/open-source/licenses/bsd).
-
 Kontakt: janmmzus@yahoo.com
