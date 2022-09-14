@@ -26,8 +26,10 @@ Bei einigen Seiten kann es einen kurzen Moment brauchen bis das Ergebnis sichtba
 Je nach dem wie gross der Overhead der Seite ist.
 
 Im Trainig erhielt ich eine Genauigkeit von 94%, es verallgemeinert aber sehr gut. Die meisten Sätze bis zu einer Länge von 50 Wörtern
-werden gut erkannt. Schwierig sind z.B. Sätze in denen Aufzählungen vorkommen.
-Aber mit mehr Daten würde auch das besser werden. Es ist halt die erste Version.
+werden gut erkannt.
+Die Korrektur funktioniert mit aufgesetztem Text besser als z.B. mit erzählerischem wie in einer Geschichte.
+Schwierig sind auch Sätze in denen Aufzählungen oder wörtliche Rede vorkommen.
+Der Text wird auf jeden Fall lesbarer und viele Fehler werden korrigiert.
 
 Content is licensed under the [Google BSD License](https://developers.google.com/open-source/licenses/bsd).
 Kontakt: janmmzus@yahoo.com
