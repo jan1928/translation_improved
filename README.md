@@ -1,6 +1,6 @@
 # translation_improved
 
-Eine Chrome-Erweiterung die übersetzte Webseiten (Englisch --> Deutsch) auf Richtigkeit prüft.
+Eine Chrome-Erweiterung die überprüft ob der Text der Webseite richtig übersetzt wurde (Englisch --> Deutsch).
 Wenn ein Satz falsch übersetzt wurde, wird er korrigiert.
 Es wird geprüft ob es richtiges Deutsch ist oder nicht.
 
