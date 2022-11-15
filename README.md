@@ -19,7 +19,7 @@ Bei diesem sollten alle Optionen aktiviert werden. Und zusätzlich noch unter 'S
 Der Server muss auf Port 8887 laufen. Sollte aber so voreingestellt sein.
 
 Dann über 'Choose Folder' die Erweiterung laden. 
-Über die locale IP kann man dann eine index.html mit ein paar falsch übersetzten Sätzen zum Testen laden. (127.0.0.1:8887)
+Über die locale IP kann man dann eine index.html mit ein paar falsch übersetzten Sätzen zum Testen laden. (127.0.0.1:8887/index_neu.html)
 Funktioniert dann aber auf jeder Seite.
 
 Bei einigen Seiten kann es einen kurzen Moment brauchen bis das Ergebnis sichtbar wird.
