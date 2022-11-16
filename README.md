@@ -1,6 +1,6 @@
 # translation_improved
 
-Eine Chrome-Erweiterung die überprüft ob der Text der Webseite richtig übersetzt wurde (Englisch --> Deutsch).
+Diese Chrome-Erweiterung überprüft ob der Text der Webseite richtig übersetzt wurde (Englisch --> Deutsch).
 Wenn ein Satz falsch übersetzt wurde, wird er korrigiert.
 Es wird geprüft ob es richtiges Deutsch ist oder nicht.
 
@@ -13,13 +13,14 @@ Dann chrome://extensions/ aufrufen und die entpackte Erweiterung in den Browser 
 Danach sollte im Contextmenu von Chrome der Eintrag 'Seite korrigieren' stehen.
 
 Zusätzlich erforderlich ist die Chrome-Erweiterung: 'Web Server for Chrome':
+
 https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb
 
 Bei diesem sollten alle Optionen aktiviert werden. Und zusätzlich noch unter 'Show Advanced Options' bei 'Set Cors headers' einen Haken setzen.
 Der Server muss auf Port 8887 laufen. Sollte aber so voreingestellt sein.
 
 Dann über 'Choose Folder' die Erweiterung laden. 
-Über die locale IP kann man dann eine index.html mit ein paar falsch übersetzten Sätzen zum Testen laden. (127.0.0.1:8887/index_neu.html)
+Über die locale IP kann man dann eine index_test.html Seite mit ein paar falsch übersetzten Sätzen zum Testen laden. (127.0.0.1:8887/index_test.html)
 Funktioniert dann aber auf jeder Seite.
 
 Bei einigen Seiten kann es einen kurzen Moment brauchen bis das Ergebnis sichtbar wird.
